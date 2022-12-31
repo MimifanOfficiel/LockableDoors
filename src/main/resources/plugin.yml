@@ -1,0 +1,14 @@
+name: KeyDoors
+version: '${project.version}'
+main: fr.mimifan.keydoors.KeyDoors
+api-version: 1.18
+authors: [ Mimifan ]
+description: Create Keys for NarutoRP
+website: https://lilabrandon.tk
+commands:
+  createkey:
+    description: Créer une clé sur la porte visée.
+  removekey:
+    description: Permet de déverrouiller une porte.
+  checkdoor:
+    description: Affiche le nom du propriétaire de la porte
